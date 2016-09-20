@@ -1,0 +1,27 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "projet de test Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrouelle/nodetest.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Nadège Rouelle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nrouelle/nodetest/issues"
+  },
+  "homepage": "https://github.com/nrouelle/nodetest#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jasmine-node": "^1.14.5",
+    "request": "^2.75.0"
+  }
+}
